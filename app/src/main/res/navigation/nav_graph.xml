@@ -25,10 +25,23 @@
         <argument
             android:name="nombre"
             app:argType="string" />
+        <argument
+            android:name="sexo"
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/resultFragment"
         android:name="com.mpd.pmdm.navigationcomponent_distancia.ResultFragment"
         android:label="fragment_result"
-        tools:layout="@layout/fragment_result" />
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="nombre"
+            app:argType="string" />
+        <argument
+            android:name="sexo"
+            app:argType="string" />
+        <argument
+            android:name="pet"
+            app:argType="integer" />
+    </fragment>
 </navigation>
