@@ -12,10 +12,10 @@
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_petColorFragment"
-            app:destination="@id/petColorFragment" />
+            app:destination="@id/segundoFragment" />
     </fragment>
     <fragment
-        android:id="@+id/petColorFragment"
+        android:id="@+id/segundoFragment"
         android:name="com.mpd.pmdm.navigationcomponent_distancia.PetColorFragment"
         android:label="fragment_pet_color"
         tools:layout="@layout/fragment_pet_color" >

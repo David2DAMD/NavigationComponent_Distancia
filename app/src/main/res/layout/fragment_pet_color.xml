@@ -10,7 +10,7 @@
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvPetTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -27,7 +27,7 @@
         android:layout_marginTop="@dimen/block_top_margin"
         android:text="@string/select_pet_label"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tvPetTitle" />
 
     <RadioGroup
         android:id="@+id/radioGroup2"
@@ -55,13 +55,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/block_top_margin"
         android:text="Continuar"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/btnVolver"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnVolver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Volver"
